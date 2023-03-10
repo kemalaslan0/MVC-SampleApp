@@ -16,6 +16,7 @@
 		7784209929BB9A1600D96B85 /* MVCSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784209829BB9A1600D96B85 /* MVCSampleAppTests.swift */; };
 		778420A329BB9A1600D96B85 /* MVCSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778420A229BB9A1600D96B85 /* MVCSampleAppUITests.swift */; };
 		778420A529BB9A1600D96B85 /* MVCSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778420A429BB9A1600D96B85 /* MVCSampleAppUITestsLaunchTests.swift */; };
+		778420B429BB9A9D00D96B85 /* MovieListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778420B329BB9A9D00D96B85 /* MovieListContracts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7784209E29BB9A1600D96B85 /* MVCSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778420A229BB9A1600D96B85 /* MVCSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCSampleAppUITests.swift; sourceTree = "<group>"; };
 		778420A429BB9A1600D96B85 /* MVCSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		778420B329BB9A9D00D96B85 /* MovieListContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListContracts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		7784208029BB9A1500D96B85 /* MVCSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				778420B129BB9A2200D96B85 /* Scenes */,
 				7784208129BB9A1500D96B85 /* AppDelegate.swift */,
 				7784208329BB9A1500D96B85 /* SceneDelegate.swift */,
 				7784208529BB9A1500D96B85 /* ViewController.swift */,
@@ -125,6 +128,22 @@
 				778420A429BB9A1600D96B85 /* MVCSampleAppUITestsLaunchTests.swift */,
 			);
 			path = MVCSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		778420B129BB9A2200D96B85 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				778420B229BB9A4000D96B85 /* MovieList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		778420B229BB9A4000D96B85 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				778420B329BB9A9D00D96B85 /* MovieListContracts.swift */,
+			);
+			path = MovieList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778420B429BB9A9D00D96B85 /* MovieListContracts.swift in Sources */,
 				7784208629BB9A1500D96B85 /* ViewController.swift in Sources */,
 				7784208229BB9A1500D96B85 /* AppDelegate.swift in Sources */,
 				7784208429BB9A1500D96B85 /* SceneDelegate.swift in Sources */,
